@@ -61,7 +61,7 @@ body {
 .circle {
   height: 15px;
   width: 15px;
-  border: 1px solid black;
+  border: 1px solid #111111;
   border-radius: 50%;
   cursor: pointer;
   background-color: white;
@@ -76,7 +76,7 @@ body {
 
 .hovertext {
   opacity: 0;
-  color: black;
+  color: #111111;
   text-align: right;
 }
 
@@ -86,8 +86,8 @@ body {
 }
 
 .hovernav:hover .circle {
-  background-color: black;
-  border: 1px solid black;
+  background-color: #111111;
+  border: 1px solid #111111;
   transition: background-color 0.5s ease;
 }
 
@@ -277,7 +277,7 @@ body {
 
 .port {
   flex: 1 0 calc(33.333% - 10px);
-  background-color: #f0f0f0;
+  background-color: #f6f6f6;
   padding: 20px;
   border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -325,7 +325,7 @@ body {
   border-radius: 5px;
   border: #acacac solid 2px;
   background-color: transparent;
-  color: black;
+  color: #111111;
   transition: 0.15s all ease;
 }
 
@@ -337,7 +337,7 @@ body {
   border-radius: 5px;
   border: #acacac solid 2px;
   background-color: transparent;
-  color: black;
+  color: #111111;
   transition: 0.15s all ease;
 }
 
@@ -373,7 +373,7 @@ body {
   transform: translate(5px, -22px);
   background-color: #f6f6f6;
   font-size: 14px;
-  color: black;
+  color: #111111;
 }
 
 .form-group textarea:focus + .form-label,
@@ -381,7 +381,7 @@ body {
   transform: translate(5px, -22px);
   background-color: #f6f6f6;
   font-size: 14px;
-  color: black;
+  color: #111111;
 }
 
 #aboutme > p {
@@ -404,7 +404,7 @@ body {
 }
 
 .submit-button:hover {
-  background-color: black;
+  background-color: #111111;
 }
 
 footer {
